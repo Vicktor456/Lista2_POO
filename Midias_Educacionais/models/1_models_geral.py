@@ -39,25 +39,3 @@ class TextoNarrado(Midia):
 
     def reproduzir(self):
         return f"Reproduzindo o texto narrado {self.titulo} com duração de {self.duracao} no idioma {self.idioma}"
-
-class Plataforma:
-    def __init__(self, nome):
-
-        self.nome = nome
-        self.lista_midia = []
-
-    def adicionar_midia(self, midia):
-        self.lista_midia.append(midia)
-
-    def listar_midias(self):
-        print(f"\n=== Midias da Plataforma {self.nome} ===")
-        for i in self.lista_midia:
-            print(i.mostrar_info())
-
-    def reproduzir_todas(self):
-        print(f"\n--- Iniciando {self.nome} ---")
-        if not self.lista_midia:
-            print("Nenhuma midia disponivel para reprodução.")
-        else:
-            for j in self.lista_midia:
-                print(j.reproduzir())
