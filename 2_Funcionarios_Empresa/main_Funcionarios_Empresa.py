@@ -4,7 +4,7 @@ empresa1 = Empresa("Bemol")
 
 funcionario1 = FuncionarioAssalariado("Vicktor Eduardo", "044.896.972-60", 2500)
 funcionario2 = FuncionarioHorista("Davi Vitor", "000.000.000-00", 60, 18)
-funcionario3 = FuncionarioComissionado("Isabely Berça", "035.466.612-65", 40000, 35)
+funcionario3 = FuncionarioComissionado("Isabely Beça", "035.466.612-65", 40000, 35)
 
 empresa1.adicionar_funcionario(funcionario1)
 empresa1.adicionar_funcionario(funcionario2)
