@@ -20,3 +20,10 @@ Para rodar qualquer um dos códigos deste repositório, você precisará apenas 
 ## Como Executar e Reproduzir os Testes
 
 Em cada pasta de questão tem o arquivo de código completo, nomeado com o mesmo nome da pasta, pode ser feito o download do arquivo ou apenas pode copiá-lo para ser feita a execução com IDE de sua preferencia. Para testa o fluxo de execução do código, basta baixar o arquivo main_"Nome da questao" do arquivo que deseja executar.
+
+## Aluno
+**Vicktor Eduardo Almeida Pinheiro**
+## Curso
+Engenharia de Software
+## Docente
+Alternei de Souza Brito
