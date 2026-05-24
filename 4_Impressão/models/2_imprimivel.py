@@ -1,0 +1,3 @@
+class Imprimivel(Protocol):
+    def imprimir(self) -> None:
+        ...
