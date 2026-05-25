@@ -1,5 +1,3 @@
-from abc import ABC, abstractmethod
-
 class Midia(ABC):
     def __init__(self, titulo, duracao):
 
